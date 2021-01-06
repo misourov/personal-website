@@ -1,0 +1,319 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    line-height: 0.3em;
+    color: #363958;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: #363958;
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #363958;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #363958;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 1.5em;
+    color: #3E3E3E;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.container{
+    margin: auto;
+    width: 85%;
+}
+.name-highlight{
+    color: blueviolet;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.button {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px 30px;
+    background-image: linear-gradient(45deg, blue, cyan);
+    color: white;
+    text-transform: capitalize;
+    border-radius: 5px;
+    
+}
+.half-width img{
+    width: 100%;
+}
+
+/** header area **/
+
+.header-area{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   overflow: hidden;
+}
+.navbar{
+    float: right;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 20px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px;
+
+}
+
+
+/** sub-header area **/
+
+
+.sub-header{
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.sub-header .intro{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.sub-header .develop{
+    margin-bottom: 10%;
+}
+
+/** about area **/
+
+.about-area{
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+.about-area .a-develop{
+    margin-bottom: 10%;
+}
+
+/** Specializing area **/
+
+.Specializing{
+    overflow: hidden;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.Specializing .spe-develop{
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+.side-line{
+    border-right: 5px solid blue;
+    border-radius: 3px;
+}
+.describe-area{
+    margin-bottom: ;
+}
+.one-third{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+}
+.second-third{
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+}
+.second-third img{
+    width: 100%;
+}
+
+.single-spe{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#market{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#ux{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#font{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/** latest working project area **/
+
+.latest-work{
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+.latest-work .name h1{
+    text-align: center;
+}
+.latest-work .name{
+    margin-bottom: 10%;
+}
+
+.single-project{
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/** inquiry box area **/
+
+.inquiry{
+    overflow: hidden;
+    padding-top: 10%;
+}
+
+.second-last{
+    overflow: hidden;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url("image/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+.second-last h1{
+    display: inline-block;
+    
+    font-size: 100px;
+    color: white;
+    margin-top: 20px;
+}
+
+.chat{
+    width: 65%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+.chat-btn{
+    margin: 2%;
+    width: 20%;
+}
+
+.contact-area{
+    overflow: hidden;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+.title{
+    margin-bottom: 10%;
+}
+.contact-area .submit{
+    margin: auto;
+}
+input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 20px 90px;
+    border: none;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+textarea{
+    padding: 20px 90px;
+    border: none;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+.send{
+    padding: 20px 90px;
+    border: none;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10%;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+
+/** latest working project area **/
+
+
+.social-area{
+    overflow: hidden;
+    text-align: center;
+}
+.social-area .text-area{
+    text-align: center;
+    margin-left: 40px;
+}
+.social-area .text-area h4{
+    font-size: 50px;
+    color: #363958;
+}
+.social-area .text-area h3{
+    color: #696871;
+}
+.icon-area ul{
+    list-style: none;
+}
+.icon-area ul li{
+    display: inline-block;
+    margin-left: 2px;
+}
+.icon-area ul li a{
+    text-transform: none;
+}
+.icon-area ul li a img{
+    width: 40%;
+
+}
+.footer-area{
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.footer-area p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #696871;
+}
